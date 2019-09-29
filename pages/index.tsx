@@ -139,6 +139,12 @@ export default () => {
     <Head>
       <link rel="stylesheet" href="https://unpkg.com/prismjs@1.17.1/themes/prism-coy.css" />
 
+      <meta property="og:url" content="https://contentful-to-ts.jondotsoy.now.sh" />
+      <meta property="og:title" content="Contentful to Typescript" />
+      <meta property="og:description" content="Convert contentful entry to typescript type." />
+      <meta property="og:site_name" content="contentful-to-ts" />
+      <meta property="og:image" content="https://i.imgur.com/SfC4eu5l.png"/>
+
       <style>{`
         body {
           font-family: sans-serif;  
@@ -172,10 +178,10 @@ export default () => {
     </Head>
 
     <div className="control-form">
-      <Inpt id={'accessToken'} label="Access Token" state={[accessToken, setAccessToken]} help="Ej. abc..."/>
+      <Inpt id={'accessToken'} label="Access Token" state={[accessToken, setAccessToken]} help="Ej. abc..." />
       <Inpt id={'hostContent'} label="Host Content" state={[hostContent, setHostContent]} help="Ej. preview.contentful.com" />
-      <Inpt id={'space'} label="Space" state={[space, setSpace]} help="Ej. abch124..."/>
-      <Inpt id={'contentType'} label="Content Type" state={[contentType, setContentType]} help="Ej. vehicle"/>
+      <Inpt id={'space'} label="Space" state={[space, setSpace]} help="Ej. abch124..." />
+      <Inpt id={'contentType'} label="Content Type" state={[contentType, setContentType]} help="Ej. vehicle" />
 
       <div className="ctr">
         <div>

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export -o docs"
+    "now": "now"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +14,7 @@
     "@types/prismjs": "^1.16.0",
     "contentful": "^7.10.0",
     "next": "^9.0.6",
+    "now": "^16.2.0",
     "prismjs": "^1.17.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

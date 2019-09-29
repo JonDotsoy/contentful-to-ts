@@ -179,7 +179,7 @@ export default () => {
 
       <div className="ctr">
         <div>
-          <a href={secretUrl} target="__blank">{publicUrl}</a>
+          <a href={secretUrl} target="_blank">{publicUrl}</a>
         </div>
       </div>
 
@@ -206,6 +206,8 @@ export default () => {
     <pre className="language-typescript">
       <code className="language-typescript" dangerouslySetInnerHTML={{ __html: htmlCode }}></code>
     </pre>
+
+    <div>Github <a href="https://github.com/JonDotsoy/contentful-to-ts" target="_blank">https://github.com/JonDotsoy/contentful-to-ts</a></div>
 
   </div>
 }

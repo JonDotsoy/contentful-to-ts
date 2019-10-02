@@ -81,10 +81,10 @@ export default () => {
   const [loadingContentType, setLoadingContentType] = useState(false);
   const [loadingContentTypeError, setLoadingContentTypeError] = useState(null as null | string);
   const [code, setCode] = useStateStorage(keyCode, '');
-  const [accessToken, setAccessToken] = useStateStorage(keyAccessToken, '');
-  const [hostContent, setHostContent] = useStateStorage(keyHostContent, '');
-  const [space, setSpace] = useStateStorage(keyScpace, '');
-  const [contentType, setContentType] = useStateStorage(keyContentType, '');
+  const [accessToken, setAccessToken] = useStateStorage(keyAccessToken, '7d92a7a0582c2d5a46f6a47e53172c5b22710147e07a340076898c4009e96421');
+  const [hostContent, setHostContent] = useStateStorage(keyHostContent, 'cdn.contentful.com');
+  const [space, setSpace] = useStateStorage(keyScpace, '6ryxe22eim9l');
+  const [contentType, setContentType] = useStateStorage(keyContentType, 'pages');
   const [historySearch, setHistorySearch] = useStateStorage(keyHistorySearch, [] as {
     accessToken: typeof accessToken,
     hostContent: typeof hostContent,
